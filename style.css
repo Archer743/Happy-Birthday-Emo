@@ -1,0 +1,86 @@
+body {
+    background-image: url('images/wandaa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main_div {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    width: 60%;
+    z-index: -1;
+    background-color: brown;
+    border: 15px solid rgba(255, 30, 0, 0.418);
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    z-index: 1;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+.privet {
+    color:gold;
+}
+
+.golden-bold {
+    color:gold;
+    font-size:medium;
+}
+
+.pojelanie {
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+    margin-left: 10%;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonFormal {
+    background-color: #ca341a;
+    color: black;
+    border: 6px solid rgba(163, 26, 8, 0.973);
+    left: 34%;
+    bottom: 20px;
+    position: fixed;
+}
+
+.buttonFormal:hover {
+    background-color: rgb(199, 104, 15);
+    color: white;
+    font-size:22px;
+}
+
+.buttonInformal {
+    background-color: #ca341a;
+    color: black; 
+    border: 6px solid rgba(163, 26, 8, 0.973);
+    right: 33%;
+    bottom: 20px;
+    position: fixed;
+}
+
+.buttonInformal:hover {
+    background-color: rgb(199, 104, 15);
+    color: white;
+    font-size:22px;
+}
